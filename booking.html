@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Room</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <form action="BookingServlet">
+    <div class="booking-container">
+
+    <h2>Room Booking Form</h2>
+
+
+        <input type="text" name="name" placeholder="Enter Name" required>
+
+        <input type="text" name="mobile" placeholder="Enter Mobile Number" pattern="[0-9]{10}" maxlength="10" required>
+
+        <input type="number" name="roomid" placeholder="Enter Room ID" min="101" max="112" required>
+
+        <input type="submit" value="Book Room">
+
+    </form>
+    
+    <br>
+    
+    <a href="payment.html">
+        
+        <button type="button" class="B">Proceed to Payment</button>
+        
+        
+    </a>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,169 @@
+body 
+        {
+            background-image: url("img3.png");
+            background-size: cover;
+            font-family: Arial;
+            color: white;
+        }
+        
+
+        #mymenu
+        {
+            
+            text-align: right;
+        }
+
+        #mymenu ul li
+        {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        #mymenu ul li:hover
+        {
+            background: white;
+        }
+
+        h1
+        {
+            margin-top: 150px;
+            background: transparent;
+            font-family: Segoe Script;
+            color:white;
+            font-size: 45px;
+            
+        }
+        table{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: rgba(0,0,0,0.55);
+    box-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
+
+table th{
+    border: 1px solid white;
+    padding: 15px;
+    font-size: 22px;
+    color: white;
+}
+
+table td{
+    border: 1px solid white;
+    padding: 14px;
+    font-size: 18px;
+    color: white;
+}
+
+table tr:hover{
+    background: rgba(255,255,255,0.1);
+}
+        .B
+        {
+            background: linear-gradient(red,blue);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 20px 0px 20px 0px;
+            border: none;
+            margin:5px;
+            text-align: center;
+        }
+
+        .B:hover
+        {
+            background: linear-gradient(blue,red);
+            border-radius: 0px 20px 0px 20px;
+        }
+        #rooms{
+            width:80%;
+            margin:auto;
+        }
+        .heading{
+            text-align: center;
+        } 
+        .room{
+            background:rgba(0,0,0,0.6);
+            padding:20px;
+            margin:20px;
+            border-radius:15px;
+            box-shadow: 0px 0px 10px rgba(255,255,255,0.2);
+        }
+        
+.booking-container
+{
+    width: 400px;
+    margin: 100px auto;
+    padding: 25px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255,255,255);
+    text-align: center;
+}
+
+.booking-container h2
+{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.booking-container input[type="text"],
+.booking-container input[type="number"]
+{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+.booking-container input[type="submit"]
+{
+    background: linear-gradient(red,blue);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.booking-container input[type="submit"]:hover
+{
+    background: linear-gradient(blue,red);
+    border-radius: 0px 20px 0px 20px;
+}
+        
+       
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+        
+
+    
